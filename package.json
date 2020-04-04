@@ -1,0 +1,21 @@
+{
+  "name": "bixlybackendmock",
+  "version": "1.0.0",
+  "description": "Fake backend so I can play with react",
+  "main": "app/Application/app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"hello world\""
+  },
+  "keywords": [
+    "react",
+    "vue",
+    "node",
+    "express"
+  ],
+  "author": "Gentry Rolofson",
+  "license": "MIT"
+}
