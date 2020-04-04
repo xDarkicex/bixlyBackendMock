@@ -1,13 +1,22 @@
 {
   "name": "bixlybackendmock",
   "version": "1.0.0",
+  "repository": "https://github.com/xDarkicex/bixlyBackendMock",
   "description": "Fake backend so I can play with react",
-  "main": "app/Application/app.js",
-  "dependencies": {},
+  "main": "app/Application/index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "babel-node": "0.0.1-security",
+    "dotenv": "^8.2.0",
     "nodemon": "^2.0.2"
   },
   "scripts": {
+    "start": "nodemon --exec babel-node app/Application/index.js",
     "test": "echo \"hello world\""
   },
   "keywords": [
